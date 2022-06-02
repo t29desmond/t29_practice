@@ -16,6 +16,7 @@
 		F716166528489EA5008C7EBC /* _1_component_practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F716166428489EA5008C7EBC /* _1_component_practiceTests.swift */; };
 		F716166F28489EA6008C7EBC /* _1_component_practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F716166E28489EA6008C7EBC /* _1_component_practiceUITests.swift */; };
 		F716167128489EA6008C7EBC /* _1_component_practiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F716167028489EA6008C7EBC /* _1_component_practiceUITestsLaunchTests.swift */; };
+		F72A0C462848E0B500831CE5 /* MemberInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72A0C452848E0B500831CE5 /* MemberInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F716166A28489EA5008C7EBC /* 01_component_practiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 01_component_practiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F716166E28489EA6008C7EBC /* _1_component_practiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_component_practiceUITests.swift; sourceTree = "<group>"; };
 		F716167028489EA6008C7EBC /* _1_component_practiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_component_practiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F72A0C452848E0B500831CE5 /* MemberInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,11 @@
 		F716164C28489EA3008C7EBC /* 01_component_practice */ = {
 			isa = PBXGroup;
 			children = (
+				F716165328489EA3008C7EBC /* Main.storyboard */,
 				F716165128489EA3008C7EBC /* ViewController.swift */,
+				F72A0C452848E0B500831CE5 /* MemberInfo.swift */,
 				F716164D28489EA3008C7EBC /* AppDelegate.swift */,
 				F716164F28489EA3008C7EBC /* SceneDelegate.swift */,
-				F716165328489EA3008C7EBC /* Main.storyboard */,
 				F716165628489EA5008C7EBC /* Assets.xcassets */,
 				F716165828489EA5008C7EBC /* LaunchScreen.storyboard */,
 				F716165B28489EA5008C7EBC /* Info.plist */,
@@ -261,6 +264,7 @@
 				F716165228489EA3008C7EBC /* ViewController.swift in Sources */,
 				F716164E28489EA3008C7EBC /* AppDelegate.swift in Sources */,
 				F716165028489EA3008C7EBC /* SceneDelegate.swift in Sources */,
+				F72A0C462848E0B500831CE5 /* MemberInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
